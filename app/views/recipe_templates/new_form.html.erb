@@ -1,0 +1,33 @@
+<h1>
+  Add a new recipe
+</h1>
+
+
+<hr>
+
+<!-- Form recipe start -->
+<form action="/create_recipe" method="post">
+<!-- Form recipe end -->
+
+  <!-- Label and input for user_id start -->
+  <div class="form-group">
+    <label for="user_id">
+      User
+    </label>
+
+    <!-- Input for user_id start -->
+    <input type="text" id="user_id" name="user_id" class="form-control">
+    <!-- Input for user_id end -->
+  </div>
+  <!-- Label and input for user_id end -->
+
+  <button class="btn btn-block btn-outline-secondary">
+    Create recipe
+  </button>
+</form>
+
+<hr>
+
+<a href="/recipes">
+  Go back
+</a>
